@@ -1,0 +1,11 @@
+/Users/YukiMikado/.rbenv/versions/2.2.5/bin/ruby -r ./siteconf20180918-49351-dkf9qc.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20180918-49351-1344ulk
